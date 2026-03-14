@@ -1,5 +1,5 @@
-from cyshop.core.base cimport BaseGreeter
-from cyshop.features.fancy cimport FancyGreeter
+from cyshop.core.base import BaseGreeter
+from cyshop.features.fancy import FancyGreeter
 
 
 def demo_messages(str raw_name):
