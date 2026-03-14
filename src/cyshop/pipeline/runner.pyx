@@ -4,7 +4,7 @@ from cyshop.features.fancy cimport FancyGreeter
 
 def demo_messages(str raw_name):
     cdef BaseGreeter base = BaseGreeter("Hello")
-    cdef FancyGreeter fancy = FancyGreeter("Welcome", "🚀")
+    cdef FancyGreeter fancy = FancyGreeter("Welcome")
 
     return {
         "base": base.greet(raw_name),
